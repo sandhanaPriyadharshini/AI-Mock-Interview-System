@@ -26,19 +26,27 @@ AI-powered mock interview platform with role-based questions, voice input, analy
 ![Dashboard](Dashboard.png)
 
 ### 🎤 Interview Page
-![Interview](MockInterview.png)
+![Interview](Mockinterview.png)
 
 ### 📄 Summary Page
 ![Summary](Summary.png)
 
+### 📄 Profile Page
+![Summary](Profile.png)
+
+### 📄 Analytics Page
+![Summary](Analytics.png)
+
 ## How to Run
 
 Frontend:
+
 cd "AI-Mock-Interview-System"
 
 npm run dev
 
 Backend:
+
 cd backend
 
 node server.cjs
