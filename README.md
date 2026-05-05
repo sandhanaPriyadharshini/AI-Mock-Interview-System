@@ -17,6 +17,20 @@ AI-powered mock interview platform with role-based questions, voice input, analy
 - Database: MongoDB
 - AI: OpenAI API
 
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login](Login.png)
+
+### 📊 Dashboard
+![Dashboard](Dashboard.png)
+
+### 🎤 Interview Page
+![Interview](MockInterview.png)
+
+### 📄 Summary Page
+![Summary](Summary.png)
+
 ## How to Run
 
 Frontend:
