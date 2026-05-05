@@ -1,40 +1,28 @@
-# InterviewIQ
+# InterviewIQ 
 
-InterviewIQ is a full-stack AI-powered mock interview platform that helps users practice role-based interviews with webcam simulation, voice input, analytics, and AI-style feedback.
+AI-powered mock interview platform with role-based questions, voice input, analytics dashboard, and MongoDB backend.
 
 ## Features
-
-- Login and signup system
 - Role-based interview questions
-- AI question generation with fallback
-- Voice answer input
-- Webcam interview simulation
-- Timer-based mock interview
-- Interview summary and score
-- AI feedback section
-- Weak area detection
-- MongoDB interview history
-- Analytics dashboard with charts
+- Voice input support
+- AI feedback (with fallback)
+- Webcam simulation
+- Timer-based interview
+- Performance analytics
+- MongoDB storage
 
 ## Tech Stack
+- Frontend: React, Tailwind CSS
+- Backend: Node.js, Express
+- Database: MongoDB
+- AI: OpenAI API
+
+## How to Run
 
 Frontend:
-- React
-- Tailwind CSS
-- React Router
-- Recharts
+cd "AI-Mock-Interview-System"
+npm run dev
 
 Backend:
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- OpenAI API
-
-## Project Status
-
-Completed core frontend and backend features. OpenAI API is integrated with fallback questions due to quota limitations.
-
-## Live Demo
-
-https://interviewiq123.netlify.app/
+cd backend
+node server.cjs
