@@ -21,8 +21,10 @@ AI-powered mock interview platform with role-based questions, voice input, analy
 
 Frontend:
 cd "AI-Mock-Interview-System"
+
 npm run dev
 
 Backend:
 cd backend
+
 node server.cjs
