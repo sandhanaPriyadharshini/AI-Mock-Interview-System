@@ -33,7 +33,7 @@ function Interview() {
     return () => clearInterval(timer);
   }, []);
   useEffect(() => {
-  fetch(`http://localhost:5000/ai-questions?role=${role}`)
+  fetch(`https://ai-mock-interview-system-d4xd.onrender.com/ai-questions?role=${role}`)
     .then((res) => res.json())
     .then((data) => {
       setQuestions(data);

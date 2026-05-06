@@ -44,7 +44,7 @@ function Summary() {
         ]),
       );
 
-      fetch("http://localhost:5000/save-result", {
+      fetch("https://ai-mock-interview-system-d4xd.onrender.com/save-result", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -55,7 +55,7 @@ function Summary() {
         .then((data) => console.log("Saved:", data))
         .catch((err) => console.log("Error:", err));
 
-      fetch("http://localhost:5000/evaluate", {
+      fetch("https://ai-mock-interview-system-d4xd.onrender.com/evaluate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

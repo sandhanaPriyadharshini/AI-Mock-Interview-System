@@ -52,7 +52,7 @@ function Login() {
         </h1>
 
         <p className="text-cyan-400 text-center mb-2 font-medium">
-          Crack your interviews with AI-powered practice 🚀
+          Crack your interviews with AI-powered practice 
         </p>
 
         <p className="text-gray-400 text-center mb-8">

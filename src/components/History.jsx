@@ -18,9 +18,8 @@ function History() {
   }));
 
   useEffect(() => {
-   fetch("http://localhost:5000/results")
-  .then((res) => res.json())
-  .then((data) => setResults(data));
+    const savedResults = JSON.parse(localStorage.getItem("results")) || [];
+    setResults(savedResults);
   }, []);
   const navigate = useNavigate();
   const loggedInUser = localStorage.getItem("loggedInUser");
@@ -36,7 +35,7 @@ function History() {
       </h1>
       <button
         onClick={() => {
-          localStorage.removeItem("results");
+          localStorage.setItem("results", JSON.stringify([]));
           setResults([]);
         }}
         className="bg-red-500 px-6 py-3 rounded-xl font-bold mb-8 hover:scale-105 transition duration-300"
